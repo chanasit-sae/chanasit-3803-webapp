@@ -15,6 +15,7 @@
         id="full_name" 
         name="full_name" 
         placeholder="Enter your full name" 
+        required
       /><br><br>
 
       <label for="full_name">Email Address *</label><br>
@@ -23,6 +24,7 @@
         id="email" 
         name="email" 
         placeholder="your.email@example.com" 
+        required
       /><br><br>
 
       <label for="full_name">Phone Number</label><br>
@@ -48,7 +50,7 @@
       <legend>Service Evaluation</legend>
       <br>
       <label for="service_rating">Overall Service Rating (1-5)*</label><br>
-      <input type="radio" id="poor_rating" name="service_rating" />
+      <input type="radio" id="poor_rating" name="service_rating" required/>
       <label for="poor_rating"> 1 - Poor</label><br>
       <input type="radio" id="fair_rating" name="service_rating" />
       <label for="poor_rating"> 2 - Fair</label><br>
@@ -60,7 +62,7 @@
       <label for="poor_rating"> 5 - Excellent</label><br><br>
       
       <label for="service_rating">Overall Service Rating (1-5)*</label><br>
-      <select name="service_category" id="service_category">
+      <select name="service_category" id="service_category" required>
         <option value="Technical support">Technical Support</option>
         <option value="Technical support">Sales</option>
         <option value="Technical support">Billing</option>
@@ -68,7 +70,7 @@
       </select><br><br>
 
       <label for="recommend">Would you recommend our service to other?*</label><br>
-      <input type="radio" id="recommend_yes" name="recommend" />
+      <input type="radio" id="recommend_yes" name="recommend" required/>
       <label for="recommend_yes">Yes, definitely</label><br>
       <input type="radio" id="recommend_maybe" name="recommend" />
       <label for="recommend_yes">Maybe</label><br>
