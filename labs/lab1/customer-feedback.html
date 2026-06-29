@@ -6,7 +6,7 @@
 
   <body>
     <h1>Customer feedback Survey</h1>
-    <p>Your opinion matters to us! Please share your experience.</p>
+    <p><em>Your opinion matters to us! Please share your experience.</em></p>
     <fieldset>
       <legend>Customer Information</legend><br>
       <label for="full_name">Full Name *</label><br>
@@ -63,6 +63,7 @@
       
       <label for="service_rating">Overall Service Rating (1-5)*</label><br>
       <select name="service_category" id="service_category" required>
+        <option value="" disabled selected hidden>Select service category</option>
         <option value="Technical support">Technical Support</option>
         <option value="Technical support">Sales</option>
         <option value="Technical support">Billing</option>
@@ -93,10 +94,49 @@
       <input type = "checkbox" id="seach_engine" name="seach_engine"/>
       <label for="seach_engine">Search Engine</label><br>
       <input type = "checkbox" id="other" name="other"/>
-      <label for="other">Other</label><br>
+      <label for="other">Other</label><br><br>
+
+      <label for="comments">Addtional Comments*</label><br>
+      <textarea 
+        maxlength="10" 
+        id="comments" 
+        name="comments "
+        placeholder="Please share your detailed feedback here..." 
+        rows="8" 
+        cols="60"
+        required
+      ></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Preferences</legend><br>
+      <label for="contact">Preferred Contact Method</label><br>
+      <input type="radio" id="contact_email" name="contact" required/>
+      <label for="contact_email">Email</label><br>
+      <input type="radio" id="contact_phone" name="contact" required/>
+      <label for="contact_phone">Phone</label><br>
+      <input type="radio" id="contact_SMS" name="contact" required/>
+      <label for="contact_SMS">SMS</label><br>
+      <input type="radio" id="contact_post" name="contact" required/>
+      <label for="contact_post">Postal Mail</label><br>
+      <input type="radio" id="contact_do_not" name="contact" required/>
+      <label for="contact_do_not">Do not contact me</label><br><br>
+
+      <label for="service_rating">Best time to contact</label><br>
+      <select name="service_category" id="service_category" required>
+        <option value="" disabled selected hidden>Select prefferd time</option>
+        <option value="Technical support">Morning</option>
+        <option value="Technical support">Afternoon</option>
+        <option value="Technical support">Evening</option>
+      </select><br><br>
 
     </fieldset>
 
+    <input type = "checkbox" id="confirm" name="confirm" required/>
+    <label for="confirm">I confirm that all information provided is accurate*</label><br>
+
+    <button>Submit Feedback</button>
+    <button>Clear All Fields</button>
 
   </body>
 
