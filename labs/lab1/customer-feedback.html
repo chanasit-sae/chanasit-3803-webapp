@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer feedback</title>
+  </head>
+
+  <body>
+    <h1>Customer feedback Survey</h1>
+    <p>Your opinion matters to us! Please share your experience.</p>
+    <fieldset>
+      <legend>Customer Information</legend><br>
+      <label for="full_name">Full Name *</label><br>
+      <input 
+        type="text" 
+        id="full_name" 
+        name="full_name" 
+        placeholder="Enter your full name" 
+      /><br><br>
+
+      <label for="full_name">Email Address *</label><br>
+      <input 
+        type="text" 
+        id="email" 
+        name="email" 
+        placeholder="your.email@example.com" 
+      /><br><br>
+
+      <label for="full_name">Phone Number</label><br>
+      <input 
+        type="text" 
+        id="phone_number" 
+        name="phone_number" 
+        placeholder="+1 (555) 123-4567" 
+      />
+      <br><br>
+
+      <label for="full_name">Customer ID</label>
+      <br>
+      <input 
+        type="text" 
+        id="customer_id" 
+        name="customer_id" 
+        placeholder="Enter your customer ID" 
+      /><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Service Evaluation</legend>
+      <br>
+      <label for="service_rating">Overall Service Rating (1-5)*</label><br>
+      <input type="radio" id="poor_rating" name="service_rating" />
+      <label for="poor_rating"> 1 - Poor</label><br>
+      <input type="radio" id="fair_rating" name="service_rating" />
+      <label for="poor_rating"> 2 - Fair</label><br>
+      <input type="radio" id="good_rating" name="service_rating" />
+      <label for="poor_rating"> 3 - Good</label><br>
+      <input type="radio" id="very_good_rating" name="service_rating" />
+      <label for="poor_rating"> 4 - Very Good</label><br>
+      <input type="radio" id="excellent_rating" name="service_rating" />
+      <label for="poor_rating"> 5 - Excellent</label><br><br>
+      
+      <label for="service_rating">Overall Service Rating (1-5)*</label><br>
+      <select name="service_category" id="service_category">
+        <option value="Technical support">Technical Support</option>
+        <option value="Technical support">Sales</option>
+        <option value="Technical support">Billing</option>
+        <option value="Technical support">General Inquiry</option>
+      </select><br><br>
+
+      <label for="recommend">Would you recommend our service to other?*</label><br>
+      <input type="radio" id="recommend_yes" name="recommend" />
+      <label for="recommend_yes">Yes, definitely</label><br>
+      <input type="radio" id="recommend_maybe" name="recommend" />
+      <label for="recommend_yes">Maybe</label><br>
+      <input type="radio" id="recommend_no" name="recommend" />
+      <label for="recommend_yes">No, I would not</label><br>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Experience Details</legend><br>
+      <label for="visit_date">Visit Date</label><br>
+      <input type = "date" id="visit_date" name="visit_date"/><br><br>
+
+      <label for="hear_about">How did you hear about us? (Select all that apply)</label><br>
+      <input type = "checkbox" id="social_media" name="social_media"/>
+      <label for="social_media">Social Media</label><br>
+      <input type = "checkbox" id="friend_family" name="friend_family"/>
+      <label for="friend_family">Friend/Family Recommendation</label><br>
+      <input type = "checkbox" id="advertisement" name="advertisement"/>
+      <label for="advertisement">Advertisement</label><br>
+      <input type = "checkbox" id="seach_engine" name="seach_engine"/>
+      <label for="seach_engine">Search Engine</label><br>
+      <input type = "checkbox" id="other" name="other"/>
+      <label for="other">Other</label><br>
+
+    </fieldset>
+
+
+  </body>
+
+</html>
