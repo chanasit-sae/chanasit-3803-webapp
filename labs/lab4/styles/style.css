@@ -1,0 +1,45 @@
+#header {
+  border: 5px solid darkcyan;
+  width: fit-content;
+}
+
+#about_me_text{
+  border: 3px solid rebeccapurple;
+  width: fit-content;
+}
+#hobby_text{
+  border: 3px solid rebeccapurple;
+  width: fit-content;
+}
+#skill_text{
+  border: 3px solid rebeccapurple;
+  width: fit-content;
+}
+.web_dev_span {
+  color: blue; font-weight: bold;
+}
+.highlight_primary {
+  background-color: #ffeb3b; /* Vibrant yellow */
+  color: #000000;            /* Black text for contrast */
+  padding: 0 4px;            /* Optional: adds breathing room */
+  border-radius: 2px;        /* Optional: softens the edges */
+}
+
+.highlight_secondary {
+  background-color: deeppink; /* Vibrant yellow */
+  color: #000000;            /* Black text for contrast */
+  padding: 0 4px;            /* Optional: adds breathing room */
+  border-radius: 2px;        /* Optional: softens the edges */
+}
+body {
+  background-color: lightblue;
+}
+
+ol {
+  list-style: square;
+}
+
+ul {
+  list-style: upper-alpha;
+}
+
