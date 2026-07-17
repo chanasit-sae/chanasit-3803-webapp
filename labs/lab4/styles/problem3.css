@@ -1,0 +1,57 @@
+body {
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  th {
+    color: WHITE;
+    background-color: #4CAF50;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+}
+.brand {
+  flex-grow: 1;
+}
+#navbar {
+  li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: #333;
+  }
+  li a:hover {
+    background-color: GREEN;
+  }
+  li a:active {
+    background-color: purple;
+  }
+
+}
+
+#courses {
+  width: 100%;
+}
+
+/* display:none will let other elements take up the space */
+/* while visibility: hidden will preserved its space */
+#note {
+  display: none;
+}
+
