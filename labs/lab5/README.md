@@ -8,5 +8,5 @@ All photos from [Pexels](https://www.pexels.com), used under the
 | batman.jpg                | Israyosoy S. | https://www.pexels.com/photo/futuristic-black-and-red-character-armor-cosplay-30570287/
 | nighwing.jpg                 | Franco Monsalvo      |https://www.pexels.com/photo/man-on-cosplay-festival-14032350/
 | superman.jpg                   | Abigail Sylvester    | https://www.pexels.com/photo/superman-chinatown-san-francisco-28245750/
-| superdog.jp              Photo by Sam Lion | https://www.pexels.com/photo/cute-obedient-dog-in-red-cape-5733412/
+| superdog.jp              | Sam Lion | https://www.pexels.com/photo/cute-obedient-dog-in-red-cape-5733412/
 
