@@ -1,19 +1,22 @@
 * { 
   box-sizing: border-box;
 }
-* .hero {
+
+.hero {
   max-width: 100%;
   height: auto;
 }
 /* width: 100% would stretch a small image to be larger than its real size */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
+
 .tile {
   margin: 0;
-  flex: 1 1 30%;   /* base = desktop value; overridden in media queries */
+  flex: 1 1 30%;
 }
 .tile img {
   width: 100%;
@@ -22,7 +25,7 @@
   display: block;
 }
 .tile-portrait img {
-  object-position: top;
+  object-position: 50% 70%;
 }
 
 @media (max-width: 768px) {
