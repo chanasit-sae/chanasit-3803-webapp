@@ -1,6 +1,5 @@
 function isPositive(input) {
-  let inputIsPositive = ((Number.isInteger(input)) && (input >= 0));
-  return inputIsPositive;
+    return ((Number.isInteger(input)) && (input >= 0));
 }
 
 function getAverage(list) {
@@ -15,10 +14,9 @@ function getAverage(list) {
   
 }
 
-function readInput() {
+function readInput(list) {
   var input;
   var isPos;
-  let list = new Array;
   
   do{
     input = Number(prompt("Enter a positive integer"));
@@ -29,8 +27,6 @@ function readInput() {
     }
 
   }while(isPos);
-
-  return list;
 }
 
 function displayStats(list, average, min, max) {
@@ -39,8 +35,8 @@ function displayStats(list, average, min, max) {
 }
 
 function main() {
-
-  let list = readInput();
+  let list = new Array;
+  readInput(list);
 
   let average = (list.length) ? getAverage(list) : 0;
   let min = (list.length) ? Math.min(...list) : 0;
