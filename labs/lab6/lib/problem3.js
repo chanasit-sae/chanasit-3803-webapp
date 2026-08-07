@@ -105,11 +105,15 @@ function runMultipleNumberCalculator() {
   else alert("Cannot divide by zero");
 }
 
+
 function getCalculatorMode() {
   let input;
+  let validMode;
   do{
     input = Number(prompt("Enter a calculator type"));
-  }while(!input === 0 && !input === 1);
+    validMode = (input === 0 || input === 1);
+    if(!validMode) alert("No calculator selected");
+  }while(!validMode);
 
   if(input === 0) return runTwoNumberCalculator();
   else return runMultipleNumberCalculator();
