@@ -1,5 +1,5 @@
 const img = document.querySelector("img");
-img.src = "../img/engineering.jpg";
+img.src = "img/engineering.jpg";
 
  img.addEventListener("click", function () {
     window.location.href = "https://www.en.kku.ac.th/";
@@ -7,11 +7,11 @@ img.src = "../img/engineering.jpg";
 img.style.cursor = "pointer";
 
 const newParagraph = document.createElement('p');
-const p = document.querySelector("p");
+const originalParagraph = document.querySelector("p");
 const section = document.querySelector('body section');
 section.appendChild(newParagraph);
 
-p.textContent = "";
+originalParagraph.textContent = "";
 newParagraph.textContent = "We hope you enjoy learning";
 
 section.style.textAlign = "center";
