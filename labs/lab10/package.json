@@ -1,0 +1,15 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "Lab 10 calculator that adds or subtracts two numbers",
+  "type": "module",
+  "main": "calculator.js",
+  "scripts": {
+    "calculator": "node calculator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.9.6"
+  }
+}
