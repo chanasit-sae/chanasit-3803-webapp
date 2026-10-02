@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App h1 {
+.info h1 {
 display: inline-block;
   background-color: black;
   color: white;
@@ -10,12 +10,16 @@ display: inline-block;
   margin-bottom: 8px;
 }
 
-.App a {
+.info a {
   display: inline-block;
   margin-top: 8px;
 }
 
-.App img {
+.info {
+  margin-bottom: 24px;
+}
+
+.info img {
   display: block;
   margin: 8px auto;
 }
