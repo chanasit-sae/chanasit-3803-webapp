@@ -1,0 +1,11 @@
+h1 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+}
